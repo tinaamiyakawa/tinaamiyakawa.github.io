@@ -1,0 +1,44 @@
+body{
+    background-color:azure;
+    color:blue;
+    font-family:arial;
+}
+ 
+.extra{
+    font-family:serif;
+    
+}
+h1{
+    color:black;
+    font-family:arial;
+    font-style:normal;
+    border:none;
+    text-align:center;
+}
+.paragraph{
+    font-family:serif;
+    color:white;
+    line-height: 25px;
+    text-align:center;
+    
+}
+
+p{
+    font-family:arial;
+    background-color:azure;
+    color:black;
+    line-height:25px;
+    text-align:center;
+  
+}
+
+.large{
+    font-size:80px;
+    
+    
+    
+    
+}
+
+
+

@@ -1,0 +1,35 @@
+body{
+    background:pink;
+    color:red;
+    padding:25px;
+    font-family:arial;
+}
+
+h1{
+    color:white;
+    font-family:arial;
+    font-style:normal;
+    padding: 25px;
+    background-color:red;
+    border:none;
+    
+}
+
+.extra{
+    font-family:serif;
+    
+}
+
+.paragraph{
+    font-family:serif;
+    font-style:oblique;
+    padding:45px;
+    text-decoration:underline;
+    border: 2px red dotted;
+    line-height: 30px;
+    text-align:center;
+    
+}
+
+
+

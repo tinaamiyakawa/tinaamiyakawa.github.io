@@ -1,18 +1,25 @@
 body{
-    background:black;
-    color:aquamarine;
-}
-
-h1{
-    color:aquamarine;
-    padding: 25px;
-
-    
+    background:white;
+    color:blue;
+    padding:25px;
+    font-family:arial;
 }
 
 .title{
-    border:5px solid white;
-    
+    font-family:sans-serif;
+}
+
+h1{
+    color:white;
+    font-family:arial;
+    font-style:normal;
+    padding: 25px;
+    background-color:blue;
+    border:5px dotted white;
     
 }
+
+
+
+
 

@@ -1,0 +1,60 @@
+body{
+    padding:45px;
+    border: 10px solid red;
+    font-family:arial;
+    background-color:antiquewhite;
+  
+}
+
+h1{
+    border:6px solid red;
+    padding:15px; 
+    font-family:arial;
+}
+
+.title{
+    margin-top:20px;
+    
+}
+div>h1{
+    background-color:dodgerblue;
+    color:antiquewhite;
+    margin-left:100px;
+    width:400px;
+    position:fixed;
+    
+ 
+}
+
+.fixedtop{
+    margin-top:200px;
+    font-family:serif;
+}
+
+h2{
+    border:6px solid red;
+    padding:25px;
+    font-family:arial;
+    background-color:white;
+}
+
+h3{
+    border: 6px solid red;
+    padding: 15px;
+    font-family:arial;
+    background-color:forestgreen;
+  
+}
+
+.border{
+    border:6px solid red;
+    padding:15px;
+    font-family:arial;
+    
+}
+
+
+
+
+
+

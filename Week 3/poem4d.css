@@ -1,0 +1,43 @@
+body{
+    background:yellow;
+    color:blue;
+    padding:25px;
+    font-family:arial;
+}
+
+h1>div{
+    font-family:arial;
+    background-color:blue;
+    color:red;
+    padding:20px;
+    margin-top:25px;
+}
+
+.special{
+    background-color:blueviolet;
+    padding:10px;
+    border: 2px white dotted;
+    
+}
+
+p{
+    margin-top:25px;
+    background-color:white;
+    border: 2px dotted blue;
+    padding:10px;
+
+}
+
+.death{
+    font-family:serif;
+    font-size:100px;
+    position:fixed;
+    border: 10px solid black;
+    padding:25px;
+    background-color:fuchsia;
+    margin-left:200px;
+    margin-top:-200px;
+    
+    
+    
+}

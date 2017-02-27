@@ -1,0 +1,26 @@
+body{
+    padding:45px;
+    margin-left:100px;
+    border: dotted aqua;
+    font-family:arial;
+    color:blue;
+    background-color:yellow;
+}
+
+body>h1{ 
+    position:fixed;
+    margin-top:300px;
+    color:aqua;
+    font-size:80px;
+    text-align:center;
+    line-height:70px;
+    
+}
+p{
+    border: 4px solid aqua;
+    padding:15px;
+    margin-left:40px;
+    color:blue;
+}
+
+

@@ -1,0 +1,36 @@
+h1{
+    line-height:90px;
+    font-family:serif;
+    font-size:100px;
+    position:fixed;
+    color:white;
+    
+}
+
+body{
+    background:pink;
+    color:magenta;
+    padding:35px;
+    font-family:arial;
+    border:4px solid magenta;
+    text-align:center;
+    line-height:23px;
+  
+}
+
+p{
+    border: 4px solid magenta;
+    padding:35px;
+    
+    
+}
+
+.callout{
+    background-color:yellow;
+    color:blue;
+    border:4px solid blue;
+    padding:20px;
+    font-family:serif;
+    font-size:45px;
+    line-height:50px;
+}

@@ -1,0 +1,47 @@
+body{
+    background:white;
+    color:blue;
+    padding:25px;
+    font-family:arial;
+}
+
+h1{
+    color:white;
+    font-family:arial;
+    font-style:normal;
+    padding: 25px;
+    background-color:fuchsia;
+    border:none;
+    text-align:center;
+    
+}
+
+.extra{
+    font-family:serif;
+    text-decoration:underline;
+    
+}
+
+.paragraph{
+    font-family:serif;
+    color:white;
+    padding:45px;
+    line-height: 25px;
+    text-align:center;
+    background-color:fuchsia;
+    
+}
+
+p{
+    font-family:arial;
+    background-color:white;
+    color:fuchsia;
+    padding:25px;
+    line-height:25px;
+    text-align:center;
+    
+    
+}
+
+
+
