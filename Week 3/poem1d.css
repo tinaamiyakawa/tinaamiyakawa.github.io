@@ -7,8 +7,14 @@ body{
     background-color:yellow;
 }
 
-body>h1{ 
-    position:fixed;
+h1{
+    text-align:center;
+    color:red;
+    border: 2px solid green;
+    padding:20px;
+}
+
+body>h2{ 
     margin-top:300px;
     color:aqua;
     font-size:80px;
