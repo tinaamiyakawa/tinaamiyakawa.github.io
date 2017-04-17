@@ -1,0 +1,76 @@
+
+/*Universal Reset*/
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+}
+
+a:hover{
+    color:black;
+    text-decoration:underline;
+    
+}
+
+/*Header and Navigation*/
+
+header{
+    width:100%;
+    padding:30px;
+    position:fixed;
+    top: 0;
+    
+    
+}
+
+.mainnav{
+    text-align:center;
+    list-style-type:none;
+}
+
+
+.mainnav ul li{
+    font-family:arial;
+    font-size:25px;
+    color:black;
+    display:inline-block;
+    text-decoration:none;
+    padding-right: 100px;
+    padding-left:100px;
+    z-index:1;
+    
+
+    
+}
+
+.content{
+    font-family:arial;
+    max-width:700px;
+    margin:200px auto;
+}
+
+p{
+    font-size:30px;
+    text-decoration:underline;
+    padding-top:30px;
+    font-weight:100;
+}
+
+h2{
+    
+    text-align:center;
+    font-size:40px;
+    font-weight:100;
+    line-height:55px;
+
+    
+    
+    
+}
+
+
+/*Media Queries*/
+
+
+
+
