@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'apercu-regular';
+    src: url('/fonts/apercu_regular.otf') format('opentype');
+}
+
+
+
 
 /*Universal Reset*/
 *{
@@ -9,9 +16,11 @@
 
 /*Global Styles*/
 
+body {
+    font-family: 'apercu-regular';
+}
 
-
-/*Typographic Styles*/
+/*Header and Navigation*/
 
 
 a{
@@ -31,16 +40,14 @@ a:hover{
     
 }
 
-/*Header and Navigation*/
-
 header{
     width:100%;
     padding:30px;
     position:fixed;
-    
-    
-    
+    top:0px;
+   
 }
+
 
 .mainnav{
     text-align:center;
@@ -49,36 +56,85 @@ header{
 
 
 .mainnav ul li{
-    font-family:arial;
     font-size:25px;
     color:black;
     display:inline-block;
     text-decoration:none;
-    padding-right: 100px;
-    padding-left:100px;
-    z-index:1;
-    
-
-    
+    padding-left:60px;
+    padding-right:60px;
+    z-index:1; 
+    line-height:45px;
+    list-style-type:none;
 }
+
+.introcontent{
+    text-align:center;
+    margin:200px auto;
+    max-width:650px;
+
+}
+
+h2{
+    font-size:30px;
+    font-weight:100;
+    line-height:43px;
+}
+
+
+.contact{
+    font-size:20px;
+    text-decoration:none;
+    padding-top:60px;
+}
+
 
 p{
-    padding:20px;
+    padding:10px;
+    font-size:18px;
 }
+
+.categories{
+    font-size:20px;
     
+}
+
+.resume{
+    margin-top:200px;
+    font-size:16px;
+    left:30px;
+    margin-left:50px;
+}
+
+
+.company{
+    font-size:18px;
+    text-decoration:underline;
+}
 
 img {
     width:100%;
 }
 
+
+
+.container{
+    max-width:900px;
+    position:relative;
+    
+}
+
+.title{
+    font-size:17px;
+    padding:8px;
+}
+
 .hellokitty {
     text-align:center;
-    width:300px;
-    font-family:arial;
+    width:400px;
     font-size:18px;
     position:absolute;
     top:150px;
-    left:450px;
+    left:425px;
     z-index:-1;
     
 
@@ -87,29 +143,29 @@ img {
 .bollywood{
     text-align:center;
     width:300px;
-    font-family:arial;
     position:absolute;
     top:100px;
     left:30px;
+    z-index:-1;
 }
 
 .otisbiz{
     text-align:center;
-    width:300px;
-    font-family:arial;
+    width:200px;
     position:absolute;
     top:550px;
     left:100px;
+    z-index:-1;
+
 
 }
 
 .talleres{
-    width:400px;
+    width:250px;
     text-align:center;
-    font-family:arial; 
     position:absolute;
     top:100px;
-    right:30px;
+    left:900px;
     z-index:-1;
 }
 
@@ -117,22 +173,83 @@ img {
 .ceremony{
     width:400px;
     text-align:center;
-    font-family:arial;
     position:absolute;
-    top:700px;
-    right:200px;
+    top:800px;
+    left:700px;
+    z-index:-1;
 }
 
 .mentorship{
     width:400px;
-    font-family:arial;
     position:absolute;
-    top:900px;
-    left:30px;
+    top:800px;
+    left:170px;
+    text-align:center;
+    z-index:-1;
+}
+
+
+.plants{
+    width:200px;
+    position:absolute;
+    top:550px;
+    left:950px;
     text-align:center;
 }
 
 
+
+.jerryhsu{
+    width:250px;
+    text-align:center;
+    position:absolute;
+    top:1200px;
+    left:30px;
+    
+    
+}
+
+.floatinginspace{
+    width:350px;
+    text-align:center;
+    position:absolute;
+    top:1200px;
+    left:375px;
+}
+
+.springs{
+    width:300px;
+    text-align:center;
+    position:absolute;
+    top:1200px;
+    left:850px;
+}
+
+
+
+ul{
+    text-decoration:none;
+    list-style-type:none;   
+}
+
+
+li{
+    font-size:18px;
+    line-height:30px;
+    margin-left:20px;
+    
+}
+
+h3{
+    margin-left:20px;
+}
+
+h4{
+    font-size:18px;
+    font-weight:100;
+    text-decoration:underline;
+    margin-left:20px;
+}
 
 
 /*General Layout*/
