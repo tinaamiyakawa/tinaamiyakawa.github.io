@@ -290,13 +290,7 @@ h6{
 /*--------PROJECT PAGES-------*/
 
 
-.hk-photo{
-    float:left;
-    max-width:350px;
-    margin-left:20%;
-    margin-top:200px;
-    padding:20px;
-}
+
 
 .description{
     float:right;
@@ -317,6 +311,42 @@ h6{
     
 }
 
+
+/*Hello Kitty*/
+
+.hk-photo{
+    float:left;
+    max-width:350px;
+    margin-left:20%;
+    margin-top:190px;
+    padding:20px;
+}
+
+.hkdescription{
+    
+    padding-top:15px;
+    margin-top:250px;
+    max-width:300px;
+    margin-right:200px;
+    float:right;
+    
+}
+.hkdescription p{
+    
+    padding-top:5px;
+    margin-top:5px;
+    text-align:center;
+    
+    
+}
+
+/*Otis Business Card*/
+
+
+.photo-container{
+    background-color:blue;
+}
+
 .biz-photo{
     float:left;
     max-width:400px;
@@ -329,8 +359,17 @@ h6{
     max-width:400px;
     margin-left:20%;
     padding:10px;
+    float:left;
 }
 
+.biz-description{
+    float:right;
+    margin-right:120px;
+    margin-top:-150px;
+    max-width:375px;
+    text-align:center;
+
+}
 
 /*General Layout*/
 
