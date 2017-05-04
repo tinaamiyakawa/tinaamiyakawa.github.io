@@ -35,81 +35,145 @@
         </header>
     
     <div class="container">
-
-        <div class="hellokitty">
-            <a href="">
+        <div class="grid">
+            
+            <div class="grid-item hellokitty">
+                <a href="hellokitty-projectpage.html">
                 <img src="images/4aaeb37f8d9bee19-notebooks-1-hk-fixed.jpg">
                 <div class="title"> Hello Kitty x Poketo</div>
-            </a>
-        </div>
+                </a>
+            </div>
         
-        <div class="bollywood">
-            <a href="">
-                <img src="images/080713_posterwkit_prodimg-copy_1340_c.jpg">
-                <div class="title">Bollywood for Machine Project</div>
-            </a>
-        </div>
-        
-        
-        <div class="otisbiz">
-            <a href="">
-            <img src="images/otis-biz-edit10_1340_c.jpg">
-            <div class="title"> Otis Business Cards</div>
-            </a>
-        </div>
-        
-        <div class="talleres">
-            <a href="">
+
+
+            <div class="grid-item otisbiz">
+                <a href="otisbiz-projectpage.html">
+                <img src="images/otis-biz-edit10_1340_c.jpg">
+                <div class="title"> Otis Business Cards</div>
+                </a>
+            </div>
+            
+            
+            <div class="grid-item talleres">
+                <a href=" ">
                 <img src="images/Pacoima-Round-2-mujeresdemaiz_1340_c.jpg">
                 <div class="title">Talleres Publicos</div>
-            </a>
-        </div>
-        
-        <div class="ceremony">
-            <a href="">
+                </a>
+            </div>
+            
+                       
+            <div class="grid-item ceremony">
+                <a href="">
                 <img src="images/ceremony-edit-3_1340_c.jpg">
-                <div class="title">Ceremony Publication</div>
-            </a>
-        </div>
-        
-        <div class="mentorship">
-            <a href="">
+                <div class="title">Ceremony</div>
+                </a>
+            </div>
+            
+                        
+            <div class="grid-item bollywood">
+                <a href="">
+                    <img src="images/080713_posterwkit_prodimg-copy_1340_c.jpg">
+                    <div class="title">Bollywood for Machine Project</div>
+                </a>
+            </div>
+                            
+            <div class="grid-item mentorship">
+                <a href="">
                 <img src="images/mentorship.jpg">
-                <div class="title">Mentorship with Chris Svensson</div>
-            </a>
-        </div>
-        
-        <div class="plants">
-            <a href="">
+                <div class="title">Mentorship Project</div>
+                </a>
+            </div>
+            
+    
+            
+                            
+            <div class="grid-item plants">
+                <a href="">
                 <img src="images/000024860013_1340_c.jpg">
-                <div class="title">Plant Study</div>
-            </a>
+                <div class="title">35mm Plant Study</div>
+                </a>
+            </div>
+            
+                                    
+            <div class="grid-item jerryhsu">
+                <a href="">
+                <img src="images/NUDITY_DOUBLE_670.jpg">
+                <div class="title">Nudity Today for Family Books</div>
+                </a>
+            </div>
+            
+            <div class="grid-item floatinginspace">
+                <a href="">
+                <img src="images/space-final_1340_c.jpg">
+                <div class="title">Ladies and Gentlemen</div>
+                </a>
+            </div>
+            
+            
+            <div class="grid-item springs">
+                <a href="">
+                <img src="images/Of-the-Sea-Spring-700_grande.jpg">
+            <div class="title">Springs Card for Poketo</div>
+                </a>
+                
+            </div>
+            
+            
+            <div class="grid-item smellslike">
+                <a href="">
+                <img src="images/UFO-poster_1340_c.jpg">
+            <div class="title">What Does a UFO Smell Like?</div>
+                </a>
+                
+            </div>
+            
+            
+                  
+            <div class="grid-item otistote">
+                <a href="">
+                <img src="images/otis-mfa-tote-2_1340_c.jpg">
+            <div class="title">OTIS MFA Tote Bag</div>
+                </a>
+                
+            </div>
+             
+            
+            <div class="grid-item needs">
+                <a href="">
+                <img src="images/thought-map.jpg">
+                <div class="title"> Craigslist Process Map</div>
+                </a>
+            </div>
+            
+                          
+            <div class="grid-item brief">
+                <a href="">
+                <img src="images/brief-edit_1340_c.jpg">
+            <div class="title">Design Brief </div>
+                </a>
+                
+            </div>
+            
             
         </div>
-        
-        <div class="jerryhsu">
-            <a href="">
-                <img src="images/NUDITY_DOUBLE_670.jpg">
-                <div class="title">Nudity Today for Family</div>
-            </a>
-        </div>
-   
-         <div class="floatinginspace">
-            <a href="">
-                <img src="images/space-final_1340_c.jpg">
-                <div class="title">Ladies & Gentlemen We are Floating in Space</div>
-            </a>
-        </div>
-      
-             <div class="springs">
-            <a href="">
-                <img src="images/Of-the-Sea-Spring-700_grande.jpg">
-                <div class="title">Springs Card for Poketo</div>
-            </a>
-        </div>
     </div>
+
       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="http://npmcdn.com/isotope-cells-by-row@1/cells-by-row.js"></script>
         
+    <script>
+        $('.grid').isotope({
+          layoutMode: 'cellsByRow',
+          itemSelector: '.grid-item',
+          isFitWidth: true,
+          cellsByRow: {
+            columnWidth: 360
+          }
+        });    
+    </script>
+
         
         
     </body>

@@ -20,7 +20,43 @@ body {
     font-family: 'apercu-regular';
 }
 
-/*Header and Navigation*/
+/* ---- grid ---- */
+
+.grid {
+  background:none;
+  max-width: 1200px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  box-sizing: border-box;
+}
+
+.grid-item a {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
+
+
+/*--------NAVITATION AND HEADER--------*/
 
 
 a{
@@ -45,6 +81,7 @@ header{
     padding:30px;
     position:fixed;
     top:0px;
+    z-index:1;
    
 }
 
@@ -62,10 +99,12 @@ header{
     text-decoration:none;
     padding-left:60px;
     padding-right:60px;
-    z-index:1; 
     line-height:45px;
     list-style-type:none;
 }
+
+
+/*--------INFO PAGE--------*/
 
 .introcontent{
     text-align:center;
@@ -93,8 +132,15 @@ p{
     font-size:18px;
 }
 
+/*--------RESUME--------*/
+
+
 .categories{
-    font-size:20px;
+    font-size:18px;
+    font-weight:bold;
+    padding-bottom:25px;
+    margin-top:20px;
+    margin-left:10px;
     
 }
 
@@ -106,9 +152,18 @@ p{
 }
 
 
-.company{
+.experience{
     font-size:18px;
-    text-decoration:underline;
+    margin-top:10px;
+}
+
+ul{
+    margin-left:-8px;
+}
+
+.pdf p{
+    margin-left:50px;
+    margin-top:20px;
 }
 
 img {
@@ -116,116 +171,89 @@ img {
 }
 
 
+h5{
+    font-size:18px;
+    font-weight:normal;
+    text-decoration:underline;
+    margin-left:10px;
+    margin-bottom:-5px;
+    
+}
+
+/*--------PROJECTS--------*/
+
 
 .container{
-    max-width:900px;
+    max-width:1100px;
     position:relative;
-    
+    margin: 100px auto;
 }
 
 .title{
     font-size:17px;
     padding:8px;
+    text-align:center;
 }
 
-.hellokitty {
-    text-align:center;
-    width:400px;
-    font-size:18px;
-    position:absolute;
-    top:150px;
-    left:425px;
-    z-index:-1;
-    
-
+.hellokitty{
+   width: 250px;
 }
 
 .bollywood{
-    text-align:center;
-    width:300px;
-    position:absolute;
-    top:100px;
-    left:30px;
-    z-index:-1;
+    width:350px;
 }
 
 .otisbiz{
-    text-align:center;
-    width:200px;
-    position:absolute;
-    top:550px;
-    left:100px;
-    z-index:-1;
-
-
+   width: 250px;
 }
 
 .talleres{
-    width:250px;
-    text-align:center;
-    position:absolute;
-    top:100px;
-    left:900px;
-    z-index:-1;
+    width:300px;
 }
 
 
 .ceremony{
-    width:400px;
-    text-align:center;
-    position:absolute;
-    top:800px;
-    left:700px;
-    z-index:-1;
+    width:225px;
 }
 
 .mentorship{
-    width:400px;
-    position:absolute;
-    top:800px;
-    left:170px;
-    text-align:center;
-    z-index:-1;
+    width:265px;
 }
 
 
 .plants{
-    width:200px;
-    position:absolute;
-    top:550px;
-    left:950px;
-    text-align:center;
+    width:260px;
 }
 
-
-
 .jerryhsu{
-    width:250px;
-    text-align:center;
-    position:absolute;
-    top:1200px;
-    left:30px;
-    
-    
+    width:370px;
+
 }
 
 .floatinginspace{
-    width:350px;
-    text-align:center;
-    position:absolute;
-    top:1200px;
-    left:375px;
+    width:250px;
+
 }
 
 .springs{
-    width:300px;
-    text-align:center;
-    position:absolute;
-    top:1200px;
-    left:850px;
+    width:250px;
 }
 
+.smellslike{
+    width:300px;
+}
 
+.otistote{
+    width:275px;
+}
+
+.needs{
+    width:290px;
+}
+
+.brief{
+    width:250px;
+}
 
 ul{
     text-decoration:none;
@@ -252,6 +280,58 @@ h4{
 }
 
 
+h6{
+    font-size:18px;
+    font-weight:normal;
+    padding-top: 15px;
+
+}
+
+/*--------PROJECT PAGES-------*/
+
+
+.hk-photo{
+    float:left;
+    max-width:350px;
+    margin-left:20%;
+    margin-top:200px;
+    padding:20px;
+}
+
+.description{
+    float:right;
+    max-width:400px;
+    margin-right:275px;
+    margin-top:200px;
+    padding:20px;
+    text-align:center;
+    line-height:1.5em;
+    
+}
+
+
+.description p{
+    
+    padding-top:15px;
+    margin-top:-600px;
+    
+}
+
+.biz-photo{
+    float:left;
+    max-width:400px;
+    margin-left:20%;
+    margin-top:200px;
+    padding:10px;
+}
+
+.biz-photo2{
+    max-width:400px;
+    margin-left:20%;
+    padding:10px;
+}
+
+
 /*General Layout*/
 
 
@@ -262,5 +342,21 @@ h4{
 /*Media Queries*/
 
 
+
+
+@media screen and (min-width: 480px){
+
+    body{
+        background-color:yellow;
+    }
+    
+    .grid-item{
+        border: 3px solid red;
+    }
+        
+            
+    }
+    
+}
 
 
