@@ -130,6 +130,7 @@ h2{
 p{
     padding:10px;
     font-size:18px;
+    line-height:1.4;
 }
 
 /*--------RESUME--------*/
@@ -319,8 +320,10 @@ h6{
     max-width:350px;
     margin-left:20%;
     margin-top:190px;
-    padding:20px;
+    padding:10px;
 }
+
+
 
 .hkdescription{
     
@@ -344,7 +347,6 @@ h6{
 
 
 .photo-container{
-    background-color:blue;
 }
 
 .biz-photo{
@@ -356,7 +358,7 @@ h6{
 }
 
 .biz-photo2{
-    max-width:400px;
+    width:400px;
     margin-left:20%;
     padding:10px;
     float:left;
@@ -364,13 +366,123 @@ h6{
 
 .biz-description{
     float:right;
-    margin-right:120px;
+    margin-right:90px;
     margin-top:-150px;
-    max-width:375px;
+    width:375px;
     text-align:center;
+    line-height:1.4;
 
 }
 
+/*Talleres Publicos*/
+
+
+.talleres-1{
+    float:left;
+    max-width:400px;
+    margin-left:20%;
+    margin-top:200px;
+    padding:10px;
+}
+
+.talleres-2{
+    max-width:400px;
+    margin-left:20%;
+    padding:10px;
+    float:left;
+}
+
+.talleres-3{
+    max-width:400px;
+    margin-left:20%;
+    padding:10px;
+    float:left;
+}
+
+.talleres-description{
+    float:right;
+    margin-right:120px;
+    margin-top:-500px;
+    max-width:400px;
+    text-align:center;
+    line-height:1.4;
+
+}
+
+/*Ceremony Publication*/
+
+.ceremony-1{
+    float:left;
+    max-width:400px;
+    margin-left:20%;
+    margin-top:200px;
+    padding:10px;
+}
+
+.ceremony-description{
+    float:right;
+    margin-right:150px;
+    margin-top:220px;
+    max-width:370px;
+    text-align:center;
+    line-height:1.4;
+
+}
+
+
+/*Bollywood*/
+
+.bollywood-1{
+    float:left;
+    max-width:400px;
+    margin-left:20%;
+    margin-top:200px;
+    padding:10px;
+}
+
+.bollywood-description{
+    float:right;
+    margin-right:150px;
+    margin-top:275px;
+    max-width:370px;
+    text-align:center;
+    line-height:1.4;
+
+}
+
+/*mentorship*/
+
+.mentorship-1{
+    float:left;
+    max-width:400px;
+    margin-left:20%;
+    margin-top:200px;
+    padding:10px;
+}
+
+.mentorship-2{
+    max-width:400px;
+    margin-left:20%;
+    padding:10px;
+    float:left;
+}
+
+.mentorship-3{
+    max-width:400px;
+    margin-left:20%;
+    padding:10px;
+    float:left;
+}
+
+.mentorship-description{
+    float:right;
+    margin-right:120px;
+    margin-top:-500px;
+    max-width:400px;
+    text-align:center;
+    line-height:1.4;
+
+}
 /*General Layout*/
 
 
